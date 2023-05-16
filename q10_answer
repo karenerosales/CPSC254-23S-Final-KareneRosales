@@ -1,0 +1,9 @@
+mkdir -p final/src
+mkdir -p final/data/main
+mkdir -p final/data/backup
+
+mv  main.cpp final/src/
+mv  header.h final/src/
+mv  mainDB.db final/data/main/
+mv  backupDB.db final/data/backup
+mv  config.yml final/config
